@@ -5,6 +5,7 @@ require 'json'
 
 require 'net/http/post/multipart'
 
+require 'sirportly/version'
 require 'sirportly/client'
 require 'sirportly/request'
 require 'sirportly/data_set'
@@ -35,7 +36,6 @@ require 'sirportly/data_objects/support_centre_article'
 require 'sirportly/data_objects/support_centre_news'
 
 module Sirportly
-  VERSION = '1.3.8'
   
   class << self
     
